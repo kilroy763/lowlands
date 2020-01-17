@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lowlands Maar dan beter</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/4b74e3b787.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap&subset=cyrillic,cyrillic-ext,greek,latin-ext" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+
+        <a href="index.html"> <i id="test" class="fab fa-accessible-icon fa-3x"></i></a>
+
+        <nav class="nav1">
+            <ul class="navkopjes1">
+                <li> <a href="">Blokkenschema </a> </li>
+                <li> <a href="">Nieuws</a></li>
+                <li> <a href="">FAQ </a> </li>
+                <li> <a href="">Programma </a> </li>
+                <li> <a href="ticket.html">Tickets</a></li>
+                <li> <a href="">Plattegrond </a> </li>
+                <li > <a href="">English </a> </li>
+                <li id="start"> Meer </li>
+                    <ul id="menu-overlay" >
+                        <li> <a href=""> Achtergrond</a></li>
+                        <li><a href="">Green En Clean </a></li>
+                        <li><a href=""> Over LowLands</a></li>
+                    </ul>
+             
+            </ul>
+        </nav>
+
+ 
+    </header>
+
+
+    <main>
+        <section class="top">
+            <h1 class="kop">LOWLANDS 2019 16+17+18 AUGUSTUS</h1>
+            <h2 class="kop" >Alle tickets zijn uitverkocht!</h2>
+            <h3 class="kop" >Maar je kan ze nog wel winnen!</h3>
+        </section>
+        
+        <section class="winnen">
+            <p>Om de tickets te winnen moet je je naam invoeren reden doorgeven en je gekste festival foto uploaden en dan beslissen wij of jij erbij past!</p>
+        </section>
+
+        <form action="">
+            <fieldset>
+                <legend>
+                    Gegevens
+                </legend>
+                <label>voornaam: </label><br><input type="text" size="30" placeholder="voornaam"><br>
+                <label> achternaam:</label><br> <input type="text" size="30" placeholder="achternaam"><br>
+                <label>Email: </label> <br><input type="email" size="30" placeholder="Emailadress" ><br>
+                <label>Reden:</label><br>
+                <textarea></textarea><br>
+                 <label for="">Foto:</label><br>
+                  <input type="file" name="pic" accept="image/*"><br>       <!-- https://www.w3schools.com/tags/att_input_accept.asp -->
+                <input type="submit" value="Versturen" class="versturen">
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+<footer>
+    <section class="social">
+        <h3>Volg ons</h3>
+        <i class="fab fa-twitter-square fa-2x"></i>
+        <i class="fab fa-facebook-square fa-2x"></i>
+        <i class="fab fa-instagram fa-2x"></i>
+        <i class="fab fa-spotify fa-2x"></i>
+    </section>
+
+    <section class="email">
+        <h3>Lowlands Nieuwsbrief?</h3>
+        <form action="">
+        <input type="email" placeholder="Je emailadress" size="18">
+            <input type="submit" value="Versturen" class="knop">
+        </form>
+    </section>
+
+
+</footer>
+
+</html>
+
+<script src="index.js"></script>
+<!--
+@media (prefers-color-scheme:dark){} om bij dark mode andere kleur website te geven
+display:grid;
+grid-template-columns:repeat(auto-fill, mimax(200px, 1fr));
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-gap: 1em;
